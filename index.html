@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Simple Blog</h1>
+        <button id="addBlogButton">Add Blog</button>
+        <form id="blogForm" style="display: none;">
+            <input type="text" id="title" placeholder="Title" required>
+            <textarea id="content" placeholder="Content" required></textarea>
+            <button type="submit">Save</button>
+        </form>
+        <div id="blogs"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
